@@ -1,5 +1,4 @@
-
-import uData from "../../../../../services/getUsers";
+    import uData from "../../../../../services/getUsers";
 
  type User = {
 
@@ -20,16 +19,17 @@ import uData from "../../../../../services/getUsers";
 }
 
 
-export type Props = {
+export interface PageProps {
   params: {
-    userData: string;
+    userData: string; // ✅ plain string, not Promise
   };
   searchParams?: Record<string, string | string[] | undefined>;
-};
+}
 
 
 
- export default async function Page({params} : Props){
+
+ export default async function Page({params} : PageProps){
  
    const users : User[] = await uData(); 
    const userId = parseInt(params.userData);     // converting the userData from the URL (which is a string) into a number.    

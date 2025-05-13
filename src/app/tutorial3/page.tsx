@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const page = () => {
 
-    console.log(process.env.SERVER_PASSWORD);    // to check the node environment (dev or production) 📌
+    // console.log(process.env.SERVER_PASSWORD);    // to check the node environment (dev or production) 📌
 
 
 
