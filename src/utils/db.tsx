@@ -1,17 +1,20 @@
 
-export const user = [
+export const user =
+{
+    users : [
+    
     {
         id : "1",
         name : "om",
-        gender : "male",
+        designation : "fullstack developer",
         email : "om123@gmail.com",
-        image : "/images/men.png"
+        image : "/images/men.jpg"
     },
 
     {
         id : "2",
         name : "khush",
-        gender : "female",
+        designation : "HR manager",
         email : "khushi49@gmail.com",
         image : "/images/girl1.jpg"
     },
@@ -19,7 +22,7 @@ export const user = [
     {
         id : "3",
         name : "dev",
-        gender : "male",
+        designation : "Backend developer",
         email : "dev7008@gmail.com",
         image : "/images/men2.jpg"
     },
@@ -27,8 +30,17 @@ export const user = [
     {
         id : "4",
         name : "nidhi",
-        gender : "female",
+        designation : "UI designer",
         email : "nidhu007@gmail.com",
         image : "/images/girl2.jpg"
     },
-]
+
+      {
+        id : "5",
+        name : "ajay",
+        designation : "magento developer",
+        email : "aj8989@gmail.com",
+        image : "/images/men3.png"
+    },
+  ]
+ }
