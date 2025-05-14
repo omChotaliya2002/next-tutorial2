@@ -69,7 +69,7 @@ export default function Page ({params} : {params : {empid : string}}) {
             }
 
                 <div className="mt-[50px] hover:scale-105 hover:underline hover:underline-offset-[5px]">
-                    <Link className="font-semibold text-lg" href={"/tutorial4/employees"}>
+                    <Link className="font-semibold text-lg" href={"/tutorial4/GET/employees"}>
                              &#x21d0; Back to Employee List
                         </Link>
                 </div>
